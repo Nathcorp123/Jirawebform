@@ -58,6 +58,30 @@ namespace Jirawebform.Pages
         public static string wedsummary = ("//input[@id='txtSummary']");
         public static string weddescriptiom = ("//textarea[@id='txtAreaDescription']");
         public static string wedprjtclick = ("//*[@id=\"ddlProjectName\"]/option[3]");
+        public static string vqdt = ("//*[@id=\"ddlProjectName\"]/option[10]"); 
+        public static string vqdtissuetype = ("//*[@id=\"IssueType\"]/option[2]");
+        public static string vqdtsummary = ("//input[@id='txtSummary']");
+        public static string vqdtdescriptn = ("//textarea[@id='txtAreaDescription']");
+        public static string vqdtupload = ("//input[@name='Attachment']");
+        public static string selectprojectCGSS = ("//*[@id=\"ddlProjectName\"]/option[11]");
+        public static string issuetypecgss = ("//*[@id=\"IssueType\"]/option[2]");
+        public static string summarycgss = ("//input[@id='txtSummary']");
+        public static string requestercgss = ("//input[@id='customfield_14049']");
+        public static string reqtypecgss = ("//option[@value='Extension']");
+        public static string numbrofconcgss = ("//input[@id='customfield_40936']");
+        public static string comytype = ("//*[@id=\"customfield_40938\"]/option[2]");
+        public static string comcode = ("//input[@id='customfield_41330']");
+        public static string region = ("//option[@value='EMEA']");
+        public static string catagy = ("//option[@value='Machines and equipment']");
+        public static string uploadcgss = ("//input[@name='Attachment']");
+
+
+
+
+
+
+
+
 
 
 

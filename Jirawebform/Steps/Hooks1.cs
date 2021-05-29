@@ -321,6 +321,46 @@ namespace Jirawebform.Steps
 
                 }
             }
+            else if (scenarioName.Equals("Open Jirawebform application and Create Tickets for VQDT"))
+            {
+                rowCount = 11;
+                if (ScenarioContext.Current.TestError == null)
+                {
+                    string msg = "Data Validated Successfully";
+                    var res = "PASS";
+
+                    WriteDataToExcel.ExcelCode(res, msg, rowCount);
+
+                }
+                else if (ScenarioContext.Current.TestError != null)
+                {
+                    string msg = ScenarioContext.Current.TestError.Message;
+                    var res = "FAIL";
+
+                    WriteDataToExcel.ExcelCode(res, msg, rowCount);
+
+                }
+            }
+            else if (scenarioName.Equals("Open Jirawebform application and Create Tickets for CGSS"))
+            {
+                rowCount = 12;
+                if (ScenarioContext.Current.TestError == null)
+                {
+                    string msg = "Data Validated Successfully";
+                    var res = "PASS";
+
+                    WriteDataToExcel.ExcelCode(res, msg, rowCount);
+
+                }
+                else if (ScenarioContext.Current.TestError != null)
+                {
+                    string msg = ScenarioContext.Current.TestError.Message;
+                    var res = "FAIL";
+
+                    WriteDataToExcel.ExcelCode(res, msg, rowCount);
+
+                }
+            }
 
             if
                 (driver != null)

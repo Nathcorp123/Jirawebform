@@ -60,3 +60,21 @@ Scenario: Open Jirawebform application and Create Tickets for WEDPH
 	| TextAlertwedph                                          |
 	| The remote server returned an error: (400) Bad Request. |
 	Then Closse the Browser
+
+@VQDT
+Scenario: Open Jirawebform application and Create Tickets for VQDT
+	Given Jirawebform application should be opene
+	And Pass the securities steps for Jirawebform
+	When Create the tickets for VQDT Project
+	| TextAlertVQDT                                          |
+	| The remote server returned an error: (400) Bad Request. |
+	Then Closese the Browser
+
+@CGSS
+Scenario: Open Jirawebform application and Create Tickets for CGSS
+	Given Jirawebform application should be opened first
+	And Pass the securities steps for Jirawebform web application
+	When Create the tickets for CGSS Project
+	| TextAlertCGSS                                          |
+	| The remote server returned an error: (400) Bad Request. |
+	Then Closese the web Browser

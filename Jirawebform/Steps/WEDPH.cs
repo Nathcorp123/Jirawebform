@@ -48,10 +48,15 @@ namespace Jirawebform.Steps
             js.ExecuteScript("window.scrollBy(0,900)");
             Thread.Sleep(5000);
             driver.FindElement(By.XPath(ENLpage.wedissuetype)).Click();
+            Thread.Sleep(3000);
             driver.FindElement(By.XPath(ENLpage.wedcomponets)).Click();
+            Thread.Sleep(3000);
             driver.FindElement(By.XPath(ENLpage.wedpriority)).Click();
+            Thread.Sleep(3000);
             driver.FindElement(By.XPath(ENLpage.wedactivity)).Click();
+            Thread.Sleep(3000);
             driver.FindElement(By.XPath(ENLpage.wedsummary)).SendKeys("Demo test");
+            Thread.Sleep(3000);
             driver.FindElement(By.XPath(ENLpage.weddescriptiom)).SendKeys("Demo test");
             Thread.Sleep(5000);
             driver.FindElement(By.XPath(ENLpage.clcik)).Click();

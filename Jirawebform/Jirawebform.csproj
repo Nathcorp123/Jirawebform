@@ -480,6 +480,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Steps\CCSS.cs" />
+    <Compile Include="Steps\CGSS.cs" />
     <Compile Include="Steps\Data.cs" />
     <Compile Include="Steps\ENL.cs" />
     <Compile Include="Steps\Hooks1.cs" />
@@ -487,6 +488,7 @@
     <Compile Include="Steps\ITQM.cs" />
     <Compile Include="Steps\LaunchSteps.cs" />
     <Compile Include="Steps\PEAK.cs" />
+    <Compile Include="Steps\VQDT.cs" />
     <Compile Include="Steps\VSRM.cs" />
     <Compile Include="Steps\WEDPH.cs" />
     <Compile Include="Steps\WriteDataToExcel.cs" />

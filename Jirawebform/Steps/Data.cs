@@ -10,6 +10,10 @@ namespace Jirawebform.Steps
     {
         public string TextAlerts { get; set; }
         public string TextAlertswedph { get; set; }
+        public string TextAlertVQDT { get; set; }
+        public string TextAlertCGSS { get; set; }
+
+
 
     }
 }
